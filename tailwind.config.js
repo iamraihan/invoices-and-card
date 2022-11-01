@@ -16,7 +16,11 @@ module.exports = {
     fontFamily: {
       Nunito: ["Nunito Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        "3xl": "0px 4px 6px rgba(62, 73, 84, 0.04)",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };

@@ -8,6 +8,9 @@
   .notification-btn {
     @apply text-[#FBFBFB] border-[4px] border-solid border-[#FBFBFB] flex justify-center items-center px-[7px] py-[5px] font-bold rounded-[20px] text-sm;
   }
+  .inner-section {
+    @apply bg-white rounded-[20px] shadow-3xl p-10 mt-8;
+  }
 }
 @layer utilities {
   .invoice-container {
@@ -22,4 +25,26 @@
   .dashboard-border-sm {
     @apply border-[2px] border-solid;
   }
+  .inner-section-header {
+    @apply text-2xl text-dark font-extrabold leading-8;
+  }
+  .general-input {
+    @apply input dashboard-border-sm rounded-[20px] w-full max-w-xs placeholder:text-dark placeholder:font-semibold placeholder:text-lg;
+  }
+  .general-input--gray {
+    @apply border-gray-50;
+  }
+  .general-input--primary {
+    @apply border-primary;
+  }
+  .table-header-text {
+    @apply text-base leading-[22px] font-semibold text-gray-20;
+  }
+  .table-item-content {
+    @apply text-lg leading-[25px] text-dark font-semibold;
+  }
+}
+
+.table :where(thead, tfoot) :where(th, td) {
+  background-color: transparent !important;
 }
