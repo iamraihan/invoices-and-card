@@ -7,7 +7,7 @@ import Cards from "./components/Cards";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#FBFBFB] font-Nunito">
       <MobileHamburger></MobileHamburger>
       <Routes>
         <Route path="/" element={<Dashboard></Dashboard>}>
