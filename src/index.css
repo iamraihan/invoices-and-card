@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .notification-btn {
+    @apply text-[#FBFBFB] border-[4px] border-solid border-[#FBFBFB] flex justify-center items-center px-[7px] py-[5px] font-bold rounded-[20px] text-sm;
+  }
+  .notification-btn--yellow {
+    @apply bg-[#FBAE3B];
+  }
+}
 @layer utilities {
   .invoice-container {
     @apply max-w-7xl mx-auto;
