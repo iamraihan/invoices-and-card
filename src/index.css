@@ -43,6 +43,18 @@
   .table-item-content {
     @apply text-lg leading-[25px] text-dark font-semibold;
   }
+  .upload-btn {
+    @apply flex gap-5 py-[14px] rounded-[14px]  px-[13px] bg-[#F3F0FF] border-[2px] border-dashed border-[#C2C2C2] cursor-pointer;
+  }
+  .invoice-btn {
+    @apply px-12 py-[18px] rounded-[20px] shadow-3xl text-lg leading-[25px] font-bold;
+  }
+  .invoice-btn--primary {
+    @apply text-white bg-primary;
+  }
+  .invoice-btn--gray {
+    @apply text-primary  border border-solid border-[#EEEEEE];
+  }
 }
 
 .table :where(thead, tfoot) :where(th, td) {

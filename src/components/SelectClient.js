@@ -20,7 +20,7 @@ const SelectClient = () => {
               <p className="text-sm text-gray-20 ">Creative Agency</p>
             </div>
           </div>
-          <div className="flex gap-6  ">
+          <div className="flex gap-6 flex-wrap lg:flex-nowrap ">
             <div className=" w-full">
               <img className="" src={map} alt="" />
             </div>
