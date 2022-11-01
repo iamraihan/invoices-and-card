@@ -10,7 +10,7 @@ import cardIcocn from "../images/ic_card.svg";
 const Dashboard = () => {
   return (
     <div>
-      <div className="invoice-container">
+      <div className="bg-[#FBFBFB]">
         <div className="drawer drawer-mobile">
           <input
             id="dashboard-sidebar"
@@ -36,20 +36,14 @@ const Dashboard = () => {
               <p className="text-dark text-lg leading-[25px] font-bold mb-8">
                 Main Menu
               </p>
-              {/* Sidebar content here  */}
-              {/* <li>
-              <a>Sidebar Item 1</a>
-            </li>
-            <li>
-              <a>Sidebar Item 2</a>
-            </li> */}
+
               <li>
                 {" "}
                 <Link className="flex gap-6 items-center ">
                   <span>
                     <img src={dashboardIcon} alt="" />
                   </span>
-                  <span className="text-lg leading-[25px] text-gray-20 font-bold">
+                  <span className="dashboard-content-text text-gray-20">
                     Dashboard
                   </span>
                 </Link>
@@ -60,7 +54,7 @@ const Dashboard = () => {
                   <span>
                     <img src={wallet} alt="" />
                   </span>
-                  <span className="text-lg leading-[25px] text-gray-20 font-bold">
+                  <span className="dashboard-content-text text-gray-20">
                     My Wallet
                   </span>
                 </Link>
@@ -70,7 +64,7 @@ const Dashboard = () => {
                   <span>
                     <img src={transactioin} alt="" />
                   </span>
-                  <span className="text-lg leading-[25px] text-gray-20 font-bold">
+                  <span className="dashboard-content-text text-gray-20">
                     Transactions
                   </span>
                   <span className="bg-primary text-sm  font-bold text-[#FBFBFB] rounded-full py-[6px] px-[7px]">
@@ -84,7 +78,7 @@ const Dashboard = () => {
                   <span>
                     <img src={invoices} alt="" />
                   </span>
-                  <span className="text-lg leading-[25px] text-gray-20 font-bold">
+                  <span className="dashboard-content-text text-gray-20">
                     Invoices
                   </span>
                 </NavLink>
@@ -95,7 +89,7 @@ const Dashboard = () => {
                   <span>
                     <img src={cardIcocn} alt="" />
                   </span>
-                  <span className="text-lg leading-[25px] text-gray-20 font-bold">
+                  <span className="dashboard-content-text text-gray-20">
                     Cards
                   </span>
                 </NavLink>

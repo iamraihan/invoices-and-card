@@ -8,15 +8,18 @@
   .notification-btn {
     @apply text-[#FBFBFB] border-[4px] border-solid border-[#FBFBFB] flex justify-center items-center px-[7px] py-[5px] font-bold rounded-[20px] text-sm;
   }
-  .notification-btn--yellow {
-    @apply bg-[#FBAE3B];
-  }
 }
 @layer utilities {
   .invoice-container {
-    @apply max-w-7xl mx-auto;
+    @apply max-w-[1475px] mx-auto;
   }
   .dashboard-txt {
     @apply text-lg leading-[25px] text-gray-20 font-semibold;
+  }
+  .dashboard-content-text {
+    @apply text-lg leading-[25px] font-bold;
+  }
+  .dashboard-border-sm {
+    @apply border-[2px] border-solid;
   }
 }
