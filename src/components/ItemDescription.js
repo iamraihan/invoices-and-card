@@ -2,7 +2,7 @@ import React from "react";
 
 const ItemDescription = () => {
   return (
-    <div className="mt-10 ">
+    <div className="mt-10 hidden lg:block ">
       <h2 className="inner-section-header">Item Desription</h2>
 
       <div className="overflow-x-auto mt-9">

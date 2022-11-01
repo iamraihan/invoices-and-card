@@ -9,7 +9,7 @@ const SelectClient = () => {
     <div>
       <div className="inner-section">
         <h5 className="inner-section-header mb-3 ">SELECT CLIENT</h5>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-20">
+        <div className="grid lg:grid-cols-4  grid-cols-1 gap-20">
           {/* card  */}
           <div className="flex gap-6 shadow-3xl p-5 rounded-xl ">
             <div className="flex justify-start ">
@@ -20,7 +20,7 @@ const SelectClient = () => {
               <p className="text-sm text-gray-20 ">Creative Agency</p>
             </div>
           </div>
-          <div className="flex gap-6 flex-wrap lg:flex-nowrap ">
+          <div className="flex gap-6  ">
             <div className=" w-full">
               <img className="" src={map} alt="" />
             </div>

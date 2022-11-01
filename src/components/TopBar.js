@@ -14,7 +14,7 @@ const TopBar = () => {
         <span className="mt-2">
           <img src={leftArrow} alt="" />
         </span>
-        <h5 className="lg:text-[32px] text-2xl text-dark font-extrabold leading-[44px]">
+        <h5 className="text-[30px] text-2xl text-dark font-extrabold leading-[44px]">
           Create Invoices
         </h5>
       </div>
