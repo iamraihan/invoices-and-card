@@ -4,9 +4,9 @@ import cardIncome from "../images/cardIncome.png";
 const ProgressBar = () => {
   return (
     <div className="">
-      <div className="flex gap-9 mt-10">
+      <div className="flex flex-wrap gap-9 mt-10">
         <div className="max-w-[1000px]">
-          <div className="flex items-center justify-between mb-12">
+          <div className="flex flex-col lg:flex-row items-center lg:justify-between mb-12">
             <div className="">
               <p className="text-xl text-dark font-bold">Wallet Balance</p>
               <h5 className="text-primary text-[32px] leading-[44px] font-extrabold mt-[7px]">
@@ -28,7 +28,7 @@ const ProgressBar = () => {
             </div>
           </div>
           <progress
-            className="progress progress-success  h-[18px] w-[800px] progress-bg-gradient-to-r from-[#5A45AA] to-[#3F9FD6]"
+            className="progress progress-success  h-[18px] w-[800px] progress-bg-gradient-to-r from-[#5A45AA] to-[#3F9FD6] hidden lg:block"
             value="80"
             max="100"
           ></progress>

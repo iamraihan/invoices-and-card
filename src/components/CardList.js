@@ -2,7 +2,7 @@ import React from "react";
 import bgOne from "../images/bg/bg-1.png";
 import bgTwo from "../images/bg/bg-2.png";
 import bgThree from "../images/bg/bg-3.png";
-import bgFour from "../images/bg/bg-3.png";
+import bgFour from "../images/bg/bg-4.png";
 
 const CardList = () => {
   return (
@@ -15,7 +15,7 @@ const CardList = () => {
           <img src={bgTwo} alt="" />
         </div>
         <div>
-          <img src={bgThree} alt="" />
+          <img className="" src={bgThree} alt="" />
         </div>
         <div>
           <img src={bgFour} alt="" />
